@@ -5,15 +5,14 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite + React + TS</title>
+  <title>Vite lib</title>
 </head>
 
 <body>
   <div id="root"></div>
-  <script type="module" src="./dist/my-lib.umd.js"></script>
+  <script type="module" src="./dist/runner.umd.js"></script>
   <script type="module">
-    const instance = new MyLib()
-    instance.myLibRun()
+    Runner.start()
   </script>
 </body>
 

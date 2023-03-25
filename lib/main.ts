@@ -1,9 +1,5 @@
-class MyLib {
-
-    public myLibRun(): void {
-        console.log("running!")
-    }
-
+export function start() {
+    console.log("starting!");
 }
 
-export default MyLib
+export default start;
